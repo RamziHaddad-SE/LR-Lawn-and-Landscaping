@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Work | LR Lawn &amp; Landscaping LLC — Ramer, AL</title>
+  <meta name="description" content="See lawn care, bush hogging, trimming and cleanup work from LR Lawn & Landscaping across Ramer and the River Region. Browse by category and before-and-after." />
+  <meta name="theme-color" content="#16181b" />
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary">
+        <a href="index.html" class="logo" aria-label="LR Lawn & Landscaping — home">
+          <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true">
+            <rect width="64" height="64" rx="13" fill="#20242a"/>
+            <g fill="none" stroke="#f2a20c" stroke-width="3.4" stroke-linecap="round"><path d="M16 50 C 15 39, 18 33, 22 28"/><path d="M26 50 C 26 37, 29 31, 34 26"/><path d="M36 50 C 38 38, 43 33, 48 30"/></g>
+            <rect x="12" y="50" width="40" height="3" rx="1.5" fill="#eceae4"/>
+          </svg>
+          <span class="logo__name"><span>LR</span> Lawn<small>&amp; Landscaping · Ramer, AL</small></span>
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__links">
+            <li><a class="nav__link" href="index.html">Home</a></li>
+            <li><a class="nav__link" href="about.html">About</a></li>
+            <li><a class="nav__link" href="services.html">Services</a></li>
+            <li><a class="nav__link" href="gallery.html">Our Work</a></li>
+            <li><a class="nav__link" href="contact.html">Contact</a></li>
+          </ul>
+          <div class="nav__cta">
+            <a href="tel:+13345593682" class="nav__phone" aria-label="Call (334) 559-3682">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>
+              (334) 559-3682
+            </a>
+            <a href="contact.html" class="btn">Free Quote</a>
+          </div>
+        </div>
+        <button class="nav__toggle" aria-label="Toggle menu" aria-controls="nav-menu" aria-expanded="false"><span></span></button>
+      </nav>
+    </div>
+  </header>
+  <div class="nav-backdrop" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="pagehero">
+      <div class="container pagehero__inner">
+        <nav class="crumbs" aria-label="Breadcrumb"><a href="index.html">Home</a> / <span>Our Work</span></nav>
+        <h1>The work speaks for itself</h1>
+        <p class="hero__lead">A look at the kind of jobs we take on around Ramer and the River Region.</p>
+      </div>
+    </section>
+
+    <!-- ===================== BEFORE / AFTER ===================== -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Before &amp; After</p>
+          <h2>From overgrown to under control</h2>
+          <p class="lead">Drag the slider to see the difference a clearing job makes.</p>
+        </div>
+        <div class="ba reveal" role="group" aria-label="Before and after comparison">
+          <!-- Replace the .ba__before / .ba__after backgrounds with real before & after photos -->
+          <div class="ba__img ba__before"><span class="ba__tag">Before</span></div>
+          <div class="ba__img ba__after"><span class="ba__tag">After</span></div>
+          <span class="ba__handle" aria-hidden="true"></span>
+          <input class="ba__range" type="range" min="0" max="100" value="50" aria-label="Reveal before or after image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== GALLERY ===================== -->
+    <section class="section section--concrete">
+      <div class="container">
+        <div class="section-head reveal">
+          <p class="eyebrow">Project Gallery</p>
+          <h2>Browse by type of work</h2>
+        </div>
+
+        <div class="filters reveal" role="group" aria-label="Filter projects">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">All Work</button>
+          <button class="filter" data-filter="lawn" aria-pressed="false">Lawn Care</button>
+          <button class="filter" data-filter="clearing" aria-pressed="false">Land Clearing</button>
+          <button class="filter" data-filter="trim" aria-pressed="false">Trimming</button>
+          <button class="filter" data-filter="cleanup" aria-pressed="false">Cleanups</button>
+          <button class="filter" data-filter="commercial" aria-pressed="false">Commercial</button>
+        </div>
+
+        <!-- Tiles use placeholder texture fills. Replace each tile's class/inline style
+             with a real photo via: style="background-image:url('assets/images/your-photo.jpg')" -->
+        <div class="gallery reveal">
+          <article class="tile t-lawn" data-cat="lawn"><span class="tile__cat">Lawn Care</span><span class="tile__title">Weekly residential mow</span></article>
+          <article class="tile t-clear" data-cat="clearing"><span class="tile__cat">Land Clearing</span><span class="tile__title">Overgrown lot bush hog</span></article>
+          <article class="tile t-trim" data-cat="trim"><span class="tile__cat">Trimming</span><span class="tile__title">Hedge &amp; shrub shaping</span></article>
+          <article class="tile t-clean" data-cat="cleanup"><span class="tile__cat">Cleanups</span><span class="tile__title">Fall leaf &amp; limb haul-off</span></article>
+          <article class="tile t-comm" data-cat="commercial"><span class="tile__cat">Commercial</span><span class="tile__title">Business grounds upkeep</span></article>
+          <article class="tile t-clear" data-cat="clearing"><span class="tile__cat">Land Clearing</span><span class="tile__title">Fence line clearing</span></article>
+          <article class="tile t-lawn" data-cat="lawn"><span class="tile__cat">Lawn Care</span><span class="tile__title">Edged &amp; blown driveway</span></article>
+          <article class="tile t-mulch" data-cat="trim"><span class="tile__cat">Ground Cover</span><span class="tile__title">Fresh pine straw beds</span></article>
+          <article class="tile t-comm" data-cat="commercial"><span class="tile__cat">Commercial</span><span class="tile__title">Rental turnover cleanup</span></article>
+        </div>
+
+        <p class="text-center mt-2 muted">These are sample placeholders. Swap in real job photos to make this gallery shine.</p>
+      </div>
+    </section>
+
+    <section class="section cta">
+      <div class="container cta__inner">
+        <div class="reveal">
+          <h2>Want your property to be the next one?</h2>
+          <p>Get a free quote and we'll show you what a sharp, cared-for lawn looks like.</p>
+        </div>
+        <div class="hero__actions reveal" data-delay="1">
+          <a href="contact.html" class="btn btn--dark btn--lg">Get a Free Quote</a>
+          <a href="tel:+13345593682" class="btn btn--ghost btn--lg">Call (334) 559-3682</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="index.html" class="logo" aria-label="LR Lawn & Landscaping — home">
+            <svg class="logo__mark" viewBox="0 0 64 64" aria-hidden="true">
+              <rect width="64" height="64" rx="13" fill="#20242a"/>
+              <g fill="none" stroke="#f2a20c" stroke-width="3.4" stroke-linecap="round"><path d="M16 50 C 15 39, 18 33, 22 28"/><path d="M26 50 C 26 37, 29 31, 34 26"/><path d="M36 50 C 38 38, 43 33, 48 30"/></g>
+              <rect x="12" y="50" width="40" height="3" rx="1.5" fill="#eceae4"/>
+            </svg>
+            <span class="logo__name"><span>LR</span> Lawn<small>&amp; Landscaping · Ramer, AL</small></span>
+          </a>
+          <p>Family-owned lawn care, landscaping and bush hogging for Ramer, Montgomery and the River Region. No job too big or too small.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Our Work</a></li>
+            <li><a href="contact.html">Contact &amp; Quote</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Get In Touch</h4>
+          <ul class="footer__contact">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg><a href="tel:+13345593682">(334) 559-3682</a></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0Z"/><circle cx="12" cy="10" r="3"/></svg><span>Ramer, Alabama &amp; the River Region</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 14"/></svg><span>Mon–Sat 7am–6pm · Calls welcome anytime</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; <span id="year">2026</span> LR Lawn &amp; Landscaping LLC. All rights reserved.</span>
+        <span>Ramer, AL · Residential &amp; Commercial</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><polyline points="18 15 12 9 6 15"/></svg></button>
+  <nav class="callbar" aria-label="Quick actions">
+    <a href="tel:+13345593682"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92Z"/></svg>Call Now</a>
+    <a href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Free Quote</a>
+  </nav>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

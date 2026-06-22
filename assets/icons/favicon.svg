@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="LR Lawn & Landscaping">
+  <rect width="64" height="64" rx="13" fill="#16181b"/>
+  <!-- grass blades -->
+  <g fill="none" stroke="#f2a20c" stroke-width="3.2" stroke-linecap="round">
+    <path d="M16 48 C 15 38, 18 32, 22 27"/>
+    <path d="M24 48 C 24 36, 26 30, 30 25"/>
+    <path d="M32 48 C 33 35, 36 30, 41 26"/>
+    <path d="M40 48 C 42 37, 46 33, 50 30"/>
+  </g>
+  <!-- ground line -->
+  <rect x="12" y="48" width="40" height="3" rx="1.5" fill="#eceae4"/>
+  <!-- LR monogram -->
+  <text x="32" y="21" text-anchor="middle" font-family="Oswald, Arial Narrow, sans-serif" font-weight="700" font-size="16" fill="#eceae4" letter-spacing="1">LR</text>
+</svg>
